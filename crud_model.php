@@ -5,12 +5,12 @@
  *
  * A basic and resulable CRUD model for working with databases in CodeIgniter
  *
- * @package        	CodeIgniter
- * @subpackage    	Libraries
- * @category    	Libraries
- * @author        	Chris Kacerguis
+ * @package         CodeIgniter
+ * @subpackage      Libraries
+ * @category        Libraries
+ * @author          Chris Kacerguis
  * @license         MIT
- * @link			https://github.com/chriskacerguis/ci-crud
+ * @link            https://github.com/chriskacerguis/ci-crud
  * @version         1.0.0
  */
 class CRUD_model extends CI_Model
