@@ -20,14 +20,14 @@ Given this table (which is an example)
 
 ```
 CREATE TABLE `users` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `first_name` varchar(255) NOT NULL DEFAULT '',
-  `last_name` varchar(255) NOT NULL DEFAULT '',
-  `phone` varchar(25) DEFAULT NULL,
-  `email` varchar(255) DEFAULT NULL,
-  `created_on` datetime NOT NULL,
-  `mod_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`)
+    `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+    `first_name` varchar(255) NOT NULL DEFAULT '',
+    `last_name` varchar(255) NOT NULL DEFAULT '',
+    `phone` varchar(25) DEFAULT NULL,
+    `email` varchar(255) DEFAULT NULL,
+    `created_on` datetime NOT NULL,
+    `mod_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
