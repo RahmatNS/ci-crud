@@ -6,7 +6,7 @@ Ready to go, easy to use CodeIgniter Model for basic CRUD operations on a table
 
 ### Installation
 
-Just drop this into ./applications/models/
+Drop the files into the appropriate directory (same as what is in the repo's directory structure)
 
 ### Usage
 
